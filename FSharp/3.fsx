@@ -27,4 +27,5 @@ let main(args : string[]) =
     |> ignore
   superTest ((int64)args.[0])
   0
+// using fermat's factorisation algorithm
 // does not find BIGGEST prime for the test number 600851475143. finds second biggest.
